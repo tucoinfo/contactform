@@ -76,7 +76,7 @@ class Contactform extends Module implements WidgetInterface
      */
     public function install()
     {
-        return parent::install() && $this->registerHook(['registerGDPRConsent', 'displayContactContent']);
+        return parent::install() && $this->registerHook(['registerGDPRConsent', 'displayContactContent', 'displayBeforeContactFormSubmit']);
     }
 
     /**
