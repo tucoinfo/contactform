@@ -91,6 +91,7 @@
         </label>
         
         {hook h='displayGDPRConsent' id_module=$id_module}
+        {hook h='displayBeforeContactFormSubmit' id_module=$id_module}
 
       </section>
 
